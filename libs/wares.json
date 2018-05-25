@@ -1,0 +1,418 @@
+[{
+    "code": 0,
+    "data": {
+        "brands": [{
+                "id": 299380,
+                "logo": null,
+                "name": "ATELIER SWAROVSKI",
+                "pinyin": null
+            },
+            {
+                "id": 229338,
+                "logo": null,
+                "name": "Mulberry",
+                "pinyin": null
+            },
+            {
+                "id": 332232,
+                "logo": null,
+                "name": "ALANCHAN CREATIONS",
+                "pinyin": null
+            },
+            {
+                "id": 297994,
+                "logo": null,
+                "name": "Pomellato",
+                "pinyin": null
+            },
+            {
+                "id": 3388,
+                "logo": null,
+                "name": "爱斯卡达（Escada）",
+                "pinyin": null
+            },
+            {
+                "id": 17147,
+                "logo": null,
+                "name": "托德斯（TOD'S ）",
+                "pinyin": null
+            },
+            {
+                "id": 330373,
+                "logo": null,
+                "name": "GOOSSENS",
+                "pinyin": null
+            },
+            {
+                "id": 23678,
+                "logo": null,
+                "name": "圣罗兰（YSL）",
+                "pinyin": null
+            },
+            {
+                "id": 313853,
+                "logo": null,
+                "name": "SHIATZY CHEN",
+                "pinyin": null
+            },
+            {
+                "id": 52255,
+                "logo": null,
+                "name": "亚历山大麦昆（Alexander McQueen）",
+                "pinyin": null
+            },
+            {
+                "id": 153959,
+                "logo": null,
+                "name": "EMPORIO ARMANI",
+                "pinyin": null
+            },
+            {
+                "id": 63789,
+                "logo": null,
+                "name": "Fred Perry",
+                "pinyin": null
+            },
+            {
+                "id": 266564,
+                "logo": null,
+                "name": "鸿雁鸿雁（HONGYAN）",
+                "pinyin": null
+            },
+            {
+                "id": 321244,
+                "logo": null,
+                "name": "OSCAR DE LA RENTA",
+                "pinyin": null
+            },
+            {
+                "id": 239226,
+                "logo": null,
+                "name": "杜鲁萨迪（TRUSSARDI）",
+                "pinyin": null
+            }
+        ],
+        "cateThreeList": [{
+                "aliasname": null,
+                "cid1": 14301,
+                "cid2": 14306,
+                "clickAble": 1,
+                "id": 14306,
+                "name": "全部",
+                "yn": 1
+            },
+            {
+                "aliasname": null,
+                "cid1": 14301,
+                "cid2": 14306,
+                "clickAble": 1,
+                "id": 14331,
+                "name": "珠宝首饰",
+                "yn": 1
+            },
+            {
+                "aliasname": null,
+                "cid1": 14301,
+                "cid2": 14306,
+                "clickAble": 1,
+                "id": 14332,
+                "name": "腕表",
+                "yn": 1
+            },
+            {
+                "aliasname": null,
+                "cid1": 14301,
+                "cid2": 14306,
+                "clickAble": 1,
+                "id": 14333,
+                "name": "头饰",
+                "yn": 1
+            },
+            {
+                "aliasname": null,
+                "cid1": 14301,
+                "cid2": 14306,
+                "clickAble": 1,
+                "id": 14334,
+                "name": "眼镜",
+                "yn": 0
+            },
+            {
+                "aliasname": null,
+                "cid1": 14301,
+                "cid2": 14306,
+                "clickAble": 1,
+                "id": 14335,
+                "name": "太阳镜",
+                "yn": 1
+            },
+            {
+                "aliasname": null,
+                "cid1": 14301,
+                "cid2": 14306,
+                "clickAble": 1,
+                "id": 14336,
+                "name": "钱包/卡包",
+                "yn": 1
+            },
+            {
+                "aliasname": null,
+                "cid1": 14301,
+                "cid2": 14306,
+                "clickAble": 1,
+                "id": 14337,
+                "name": "钥匙扣",
+                "yn": 1
+            },
+            {
+                "aliasname": null,
+                "cid1": 14301,
+                "cid2": 14306,
+                "clickAble": 1,
+                "id": 14338,
+                "name": "围巾/丝巾",
+                "yn": 1
+            },
+            {
+                "aliasname": null,
+                "cid1": 14301,
+                "cid2": 14306,
+                "clickAble": 1,
+                "id": 14339,
+                "name": "腰带",
+                "yn": 1
+            },
+            {
+                "aliasname": null,
+                "cid1": 14301,
+                "cid2": 14306,
+                "clickAble": 1,
+                "id": 14340,
+                "name": "帽子",
+                "yn": 1
+            },
+            {
+                "aliasname": null,
+                "cid1": 14301,
+                "cid2": 14306,
+                "clickAble": 1,
+                "id": 14341,
+                "name": "手套",
+                "yn": 0
+            },
+            {
+                "aliasname": null,
+                "cid1": 14301,
+                "cid2": 14306,
+                "clickAble": 1,
+                "id": 14342,
+                "name": "袜类",
+                "yn": 0
+            }
+        ],
+        "cid1s": [{
+            "count": null,
+            "fid": 0,
+            "id": 14301,
+            "name": "箱包配饰",
+            "subs": [{
+                "count": null,
+                "fid": 14301,
+                "id": 14306,
+                "name": "女士配饰",
+                "subs": [{
+                    "count": null,
+                    "fid": 14306,
+                    "id": 14306,
+                    "name": "女士配饰",
+                    "subs": []
+                }]
+            }]
+        }],
+        "filter": [],
+        "imgRuleIcon": {
+            "domain": "m.360buyimg.com",
+            "sizeKV": {
+                "s1": "/n8/s60x26_"
+            }
+        },
+        "page": 2,
+        "pageCount": 40,
+        "pageSize": 9,
+        "resultCount": 360,
+        "wares": [{
+                "brandId": 321244,
+                "brandName": "OSCAR DE LA RENTA",
+                "cid1": null,
+                "cid2": null,
+                "cid3": 14306,
+                "imagePath": "jfs/t21685/108/104635904/384591/64a6cf22/5afabbbfNa62895fa.jpg",
+                "imageUrl": "img20.360buyimg.com/n8/s310x390_jfs/t21685/108/104635904/384591/64a6cf22/5afabbbfNa62895fa.jpg",
+                "jdPrice": "3,050",
+                "jdPriceOp": "3,050",
+                "name": "女士花卉耳环 粉色",
+                "new": false,
+                "rn": -1,
+                "skuId": 6556878,
+                "slaveWareList": [],
+                "stockState": 40,
+                "stockStateName": "可配货",
+                "tags": []
+            },
+            {
+                "brandId": 136914,
+                "brandName": "TOD'S",
+                "cid1": null,
+                "cid2": null,
+                "cid3": 14306,
+                "imagePath": "jfs/t17467/313/2036234568/249561/63524cc1/5ae2f4eeN9a8326df.jpg",
+                "imageUrl": "img30.360buyimg.com/n8/s310x390_jfs/t17467/313/2036234568/249561/63524cc1/5ae2f4eeN9a8326df.jpg",
+                "jdPrice": "1,440",
+                "jdPriceOp": "2,400",
+                "name": "女士牛皮迷你化妆袋 浅黄色",
+                "new": false,
+                "rn": 2,
+                "skuId": 27311852023,
+                "slaveWareList": [],
+                "stockState": 33,
+                "stockStateName": "现货",
+                "tags": []
+            },
+            {
+                "brandId": 229338,
+                "brandName": "Mulberry",
+                "cid1": null,
+                "cid2": null,
+                "cid3": 14306,
+                "imagePath": "jfs/t19150/343/1250136447/363774/8ae62602/5ac19e72N68c979f0.jpg",
+                "imageUrl": "img11.360buyimg.com/n8/s310x390_jfs/t19150/343/1250136447/363774/8ae62602/5ac19e72N68c979f0.jpg",
+                "jdPrice": "2,800",
+                "jdPriceOp": "2,800",
+                "name": "女士横纹皮革长款半拉链式钱包蓝色",
+                "new": false,
+                "rn": -1,
+                "skuId": 25944844977,
+                "slaveWareList": [],
+                "stockState": 40,
+                "stockStateName": "可配货",
+                "tags": []
+            },
+            {
+                "brandId": 332232,
+                "brandName": "ALANCHAN CREATIONS",
+                "cid1": null,
+                "cid2": null,
+                "cid3": 14306,
+                "imagePath": "jfs/t18235/27/1404217675/388858/47d8c856/5ac9c2f0N7d04e050.jpg",
+                "imageUrl": "img11.360buyimg.com/n8/s310x390_jfs/t18235/27/1404217675/388858/47d8c856/5ac9c2f0N7d04e050.jpg",
+                "jdPrice": "1,800",
+                "jdPriceOp": "1,800",
+                "name": " “当下”腕表 亮黑色",
+                "new": false,
+                "rn": 1,
+                "skuId": 26890140845,
+                "slaveWareList": [],
+                "stockState": 33,
+                "stockStateName": "现货",
+                "tags": []
+            },
+            {
+                "brandId": 170367,
+                "brandName": "ESCADA",
+                "cid1": null,
+                "cid2": null,
+                "cid3": 14306,
+                "imagePath": "jfs/t14980/195/1606102739/199512/7909b9af/5a54563eN62c2f963.jpg",
+                "imageUrl": "img14.360buyimg.com/n8/s310x390_jfs/t14980/195/1606102739/199512/7909b9af/5a54563eN62c2f963.jpg",
+                "jdPrice": "3,200",
+                "jdPriceOp": "3,200",
+                "name": "女士浅黄色长款钱夹 均码",
+                "new": false,
+                "rn": -1,
+                "skuId": 5707335,
+                "slaveWareList": [],
+                "stockState": 40,
+                "stockStateName": "可配货",
+                "tags": []
+            },
+            {
+                "brandId": 170367,
+                "brandName": "ESCADA",
+                "cid1": null,
+                "cid2": null,
+                "cid3": 14306,
+                "imagePath": "jfs/t14572/48/1078766089/187410/d061beae/5a4c6d52N4c311f4f.jpg",
+                "imageUrl": "img12.360buyimg.com/n8/s310x390_jfs/t14572/48/1078766089/187410/d061beae/5a4c6d52N4c311f4f.jpg",
+                "jdPrice": "3,200",
+                "jdPriceOp": "3,200",
+                "name": "女士酒红色钱包 均码",
+                "new": false,
+                "rn": -1,
+                "skuId": 5826656,
+                "slaveWareList": [],
+                "stockState": 40,
+                "stockStateName": "可配货",
+                "tags": []
+            },
+            {
+                "brandId": 170367,
+                "brandName": "ESCADA",
+                "cid1": null,
+                "cid2": null,
+                "cid3": 14306,
+                "imagePath": "jfs/t16579/205/1104277375/323998/c891e85c/5a4c4d52N78382c43.jpg",
+                "imageUrl": "img12.360buyimg.com/n8/s310x390_jfs/t16579/205/1104277375/323998/c891e85c/5a4c4d52N78382c43.jpg",
+                "jdPrice": "1,900",
+                "jdPriceOp": "1,900",
+                "name": "女士卡包 均码",
+                "new": false,
+                "rn": -1,
+                "skuId": 5826530,
+                "slaveWareList": [],
+                "stockState": 40,
+                "stockStateName": "可配货",
+                "tags": []
+            },
+            {
+                "brandId": 313853,
+                "brandName": "SHIATZY CHEN",
+                "cid1": null,
+                "cid2": null,
+                "cid3": 14306,
+                "imagePath": "jfs/t16939/230/415820908/195651/570c0374/5a746412Nf62e4c90.jpg",
+                "imageUrl": "img13.360buyimg.com/n8/s310x390_jfs/t16939/230/415820908/195651/570c0374/5a746412Nf62e4c90.jpg",
+                "jdPrice": "528",
+                "jdPriceOp": "880",
+                "name": "中性年轻休闲系列星空印花双面渔夫帽 黑色",
+                "new": false,
+                "rn": -1,
+                "skuId": 25445012275,
+                "slaveWareList": [],
+                "stockState": 40,
+                "stockStateName": "可配货",
+                "tags": []
+            },
+            {
+                "brandId": 239226,
+                "brandName": "TRUSSARDI",
+                "cid1": null,
+                "cid2": null,
+                "cid3": 14306,
+                "imagePath": "jfs/t10408/105/2569846936/137286/606b471/59f984e4Nf03cae02.jpg",
+                "imageUrl": "img30.360buyimg.com/n8/s310x390_jfs/t10408/105/2569846936/137286/606b471/59f984e4Nf03cae02.jpg",
+                "jdPrice": "1,699",
+                "jdPriceOp": "1,699",
+                "name": "女士黑色小牛皮细腰带",
+                "new": false,
+                "rn": -1,
+                "skuId": 5601975,
+                "slaveWareList": [],
+                "stockState": 40,
+                "stockStateName": "可配货",
+                "tags": []
+            }
+        ]
+    },
+    "message": null,
+    "success": true
+}]

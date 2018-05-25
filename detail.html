@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>详情</title>
+    <link rel="stylesheet" href="css/detail.css">
+    <script src="libs/jquery-3.3.1.js"></script>
+    <script src="libs/jquery.cookie.js"></script>
+    <script src="libs/common.js"></script>
+    <script src="libs/ajax.js"></script>
+</head>
+<div id="head">
+    <div class="head_center">
+        <div class="icon_left">
+            <p><img src="images/icon_mine.png" alt=""></p>
+            <div class="login">
+                <a href="login.html" class="gologin">登录</a> /
+                <a class="goregist">注册</a>
+            </div>
+        </div>
+        <div class="logo">
+            <a href="index.html"><img src="images/logo1.png" alt=""></a>
+        </div>
+        <div class="icon_right">
+            <p><img src="images/icon_search_30x28.png" alt=""></p>
+            <span class="car_pic"><img src="images/icon_cart_29x30.png" alt=""></span>
+            <span class="car_num">0</span>
+        </div>
+    </div>
+</div>
+<script src="js/head.js"></script>
+
+<div id="nav">
+    <div class="navlist">
+        <ul class="list1">
+            <li><span>男士</span>
+                <ul class="list_one">
+                    <li>
+                        <p>MEN</p>
+                    </li>
+                    <li><a href="##">男士服饰</a></li>
+                    <li><a href="##">男士鞋靴</a></li>
+                    <li><a href="##">男士包袋</a></li>
+                    <li><a href="##">男士配饰</a></li>
+                </ul>
+
+            </li>
+            <li><span>女士</span>
+                <ul class="list_two">
+                    <li>
+                        <p>WOMEN</p>
+                    </li>
+                    <li><a href="list.html">女士服饰</a></li>
+                    <li><a href="list.html">女士鞋靴</a></li>
+                    <li><a href="list.html">女士包袋</a></li>
+                    <li><a href="list.html">女士配饰</a></li>
+                </ul>
+            </li>
+            <li><span>护肤美妆</span>
+                <ul class="list_three">
+
+                    <li>
+                        <p>BEAYTY</p>
+                    </li>
+                    <li><a href="##">护肤美妆</a></li>
+                </ul>
+            </li>
+            <li><span>生活方式</span>
+                <ul class="list_four">
+                    <li>
+                        <p>LIFE</p>
+                    </li>
+                    <li><a href="##">功能箱包</a></li>
+                    <li><a href="##">时尚生活</a></li>
+                </ul>
+            </li>
+            <li><span>品牌</span>
+                <ul class="list_five">
+                    <li>
+                        <p>BRANDS</p>
+                    </li>
+                </ul>
+            </li>
+            <li><span>T课堂</span>
+                <ul class="list_five">
+                    <li>
+                        <p>T-CLASS</p>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</div>
+<script src="js/nav.js"></script>
+
+<div id="detailMain">
+    <div class="detailMain_center">
+        <!-- <div class="detail_title">
+            <p>TOPLIFE > 美妆个护 > ALANCHAN CREATIONS </p>
+        </div>
+        <div class="detail_intro">
+            <div class="detail_inner">
+                <div class="img_show">
+                    <div class="small_show">
+                        <div class="wrap"></div>
+                        <img src="pictures/kh1.jpg" class="opacity-img" alt="">
+                        <span class="grayBox"></span>
+                    </div>
+
+                    <div class="slide_pic">
+                        <div class="small1">
+                            <img src="pictures/khsmall1.jpg" alt="">
+                        </div>
+                        <div class="small2">
+                            <img src="pictures/khsmall2.jpg" alt="">
+                        </div>
+                        <div class="small3">
+                            <img src="pictures/khsmall3.jpg" alt="">
+                        </div>
+                        <div class="small4">
+                            <img src="pictures/khsmall4.jpg" alt="">
+                        </div>
+                        <div class="small5">
+                            <img src="pictures/khsmall5.jpg" alt="">
+                        </div>
+                    </div>
+
+                </div>
+                <div class="big_show">
+                    <img src="pictures/kh1.jpg" alt="">
+                </div>
+
+                <div class="tab_head">
+                    <p class="tab_left">商品描述</p>
+                    <p class="tab_right">服务说明</p>
+                </div>
+
+                <div class="img_intro">
+                    <img src="pictures/introduce.jpg" alt="">
+                </div>
+
+            </div>
+
+        </div>
+        <div class="introduce">
+            <h1>
+                <p class="brandName">ALANCHAN CREATIONS</p>
+                <p class="pName">KILLER LE ROUGE 丝绒系列杀手口红 AC101</p>
+            </h1>
+
+            <p class="brand_price">￥ 498.00</p>
+
+            <div class="peisong">
+                <span>配送至 &nbsp;&nbsp;&nbsp;&nbsp;:</span>
+                <p class="p1">北京朝阳区三环以内</p>
+                <p class="p2"><strong>有货</strong></p>
+                <p class="p3">(由 TOPLIFE 发货, Alan Chan Creations提供售后服务。)</p>
+            </div>
+            <div class="leixing">
+                <span>类&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;型:</span>
+                <p>AC101</p>
+            </div>
+            <div class="num">
+                <span>数&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;量:</span>
+                <button class="btn1">-</button>
+                <input type="text" value="1">
+                <button class="btn1">+</button>
+                <p class="addCar">
+                    <button class="car_btn">加入购物车</button>
+                </p>
+
+            </div> -->
+    </div>
+</div>
+
+</div>
+<script src="js/move.js"></script>
+<script src="js/de.js"></script>
+<script src="js/detail.js"></script>
+
+
+<div id="recommend">
+    <div class="recommend_center">
+        <header class="recommend_header">
+            <h3 class="recommend_title">相关推荐</h3>
+            <p class="recommend_subtit">RELEVANT RECOMMENDATION</p>
+        </header>
+        <div class="clearfix">
+            <div class="recommend_list">
+                <img src="pictures/recommed1.jpg" alt="">
+                <p class="recommend_brand">ALANCHAN CREATIONS</p>
+                <p class="recommend_name">KILLER LE ROUGE 丝绒系列杀手口红 AC102</p>
+                <p class="recommend_price">￥ <span>498</span></p>
+            </div>
+        </div>
+    </div>
+
+</div>
+<script src="js/recommend.js"></script>
+
+<div id="footer_grid">
+    <ul class="grid_list">
+        <li>
+            <img src="images/icon_dujia.png" alt="">
+            <div class="icon">
+                <p class="grid_cn">独家奢品</p>
+                <p class="grid_en">EXCLUSIVE</p>
+                <p class="grid_en">LUXURY GOODS</p>
+            </div>
+
+        </li>
+        <li>
+            <img src="images/icon_pinpai.png" alt="">
+            <div class="icon">
+                <p class="grid_cn">品牌旗舰</p>
+                <p class="grid_en">ONLINE</p>
+                <p class="grid_en">FLAGSHIP STORE</p>
+            </div>
+
+        </li>
+        <li>
+            <img src="images/icon_quanqiu.png" alt="">
+            <div class="icon">
+                <p class="grid_cn">全球同步</p>
+                <p class="grid_en">GLOBAL</p>
+                <p class="grid_en">LATEST COLLECTION</p>
+            </div>
+
+        </li>
+        <li>
+            <img src="images/icon_xinpin.png" alt="">
+            <div class="icon">
+                <p class="grid_cn">新品首发</p>
+                <p class="grid_en">NEW</p>
+                <p class="grid_en">ARRIVAL</p>
+            </div>
+        </li>
+        <li>
+            <img src="images/icon_zunxiang.png" alt="">
+            <div class="icon">
+                <p class="grid_cn">尊享服务</p>
+                <p class="grid_en">VIP</p>
+                <p class="grid_en">SERVICE</p>
+            </div>
+        </li>
+    </ul>
+</div>
+
+<div id="footer">
+    <div class="footer_wrap">
+        <div class="footer_center">
+            <div class="img_left">
+                <img src="images/footer_main_left.png" alt="">
+            </div>
+            <div class="footer_warp1">
+                <div class="wb">
+                    <img src="images/toplife_wb@1x.png" alt="">
+                </div>
+                <div class="wx">
+                    <img src="images/toplife_wx@1x.png" alt="">
+                </div>
+                <p class="footer_cn">欢迎关注TOPLIFE微信、微博公众平台，开启您的品质生活</p>
+                <p class="footer_en">YOU ARE WARMLY INVITED TO FOLLOW OUR WEIBO &amp; WECHAT, EXPLORING A TOPLIFE</p>
+            </div>
+            <div class="img_right">
+                <img src="images/footer_main_right.png" alt="">
+            </div>
+            <div class="explain">
+                <div class="ex_left">
+                    <h3>使用帮助</h3>
+                    <ul>
+                        <li><a href="##">帮助中心</a></li>
+                    </ul>
+                </div>
+                <div class="ex_center">
+                    <h3>特色服务</h3>
+                    <ul>
+                        <li><a href="##">京尊达</a></li>
+                        <li><a href="##">多样化支付</a></li>
+                        <li><a href="##">24小时时尚顾问</a></li>
+                    </ul>
+                </div>
+                <div class="ex_right">
+                    <h3>关于我们</h3>
+                    <ul>
+                        <li><a href="##">TOPLIFE介绍</a></li>
+                        <li><a href="##">联系我们</a></li>
+                        <li><a href="##">隐私政策</a></li>
+                        <li><a href="##">用户注册协议</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="ft_bottom_center">
+        <div class="ft_logo">
+            <img src="images/logo.png" alt="">
+        </div>
+        <div class="copyRight">
+            <span class="r1">ICP备11041704号-26</span>
+            <span class="split">|</span>
+            <span class="r2">
+                                    Copyright © 
+                                    2018
+                                    TOPLIFE 版权所有
+                                </span>
+            <span><a href="##">经营证照</a></span>
+        </div>
+    </div>
+</div>
+
+<body>
+
+</body>
+
+</html>

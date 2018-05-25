@@ -1,0 +1,210 @@
+[{
+    "success": true,
+    "code": 0,
+    "message": null,
+    "data": [{
+            "id": 1,
+            "name": "北京",
+            "cod": true,
+            "3Cod": false
+        },
+        {
+            "id": 2,
+            "name": "上海",
+            "cod": true,
+            "3Cod": false
+        },
+        {
+            "id": 3,
+            "name": "天津",
+            "cod": true,
+            "3Cod": false
+        },
+        {
+            "id": 4,
+            "name": "重庆",
+            "cod": true,
+            "3Cod": false
+        },
+        {
+            "id": 5,
+            "name": "河北",
+            "cod": true,
+            "3Cod": false
+        },
+        {
+            "id": 6,
+            "name": "山西",
+            "cod": true,
+            "3Cod": false
+        },
+        {
+            "id": 7,
+            "name": "河南",
+            "cod": true,
+            "3Cod": false
+        },
+        {
+            "id": 8,
+            "name": "辽宁",
+            "cod": true,
+            "3Cod": false
+        },
+        {
+            "id": 9,
+            "name": "吉林",
+            "cod": true,
+            "3Cod": false
+        },
+        {
+            "id": 10,
+            "name": "黑龙江",
+            "cod": true,
+            "3Cod": false
+        },
+        {
+            "id": 11,
+            "name": "内蒙古",
+            "cod": true,
+            "3Cod": false
+        },
+        {
+            "id": 12,
+            "name": "江苏",
+            "cod": true,
+            "3Cod": false
+        },
+        {
+            "id": 13,
+            "name": "山东",
+            "cod": true,
+            "3Cod": false
+        },
+        {
+            "id": 14,
+            "name": "安徽",
+            "cod": true,
+            "3Cod": false
+        },
+        {
+            "id": 15,
+            "name": "浙江",
+            "cod": true,
+            "3Cod": false
+        },
+        {
+            "id": 16,
+            "name": "福建",
+            "cod": true,
+            "3Cod": false
+        },
+        {
+            "id": 17,
+            "name": "湖北",
+            "cod": true,
+            "3Cod": false
+        },
+        {
+            "id": 18,
+            "name": "湖南",
+            "cod": true,
+            "3Cod": false
+        },
+        {
+            "id": 19,
+            "name": "广东",
+            "cod": true,
+            "3Cod": false
+        },
+        {
+            "id": 20,
+            "name": "广西",
+            "cod": true,
+            "3Cod": false
+        },
+        {
+            "id": 21,
+            "name": "江西",
+            "cod": true,
+            "3Cod": false
+        },
+        {
+            "id": 22,
+            "name": "四川",
+            "cod": true,
+            "3Cod": false
+        },
+        {
+            "id": 23,
+            "name": "海南",
+            "cod": true,
+            "3Cod": false
+        },
+        {
+            "id": 24,
+            "name": "贵州",
+            "cod": true,
+            "3Cod": false
+        },
+        {
+            "id": 25,
+            "name": "云南",
+            "cod": true,
+            "3Cod": false
+        },
+        {
+            "id": 26,
+            "name": "西藏",
+            "cod": true,
+            "3Cod": false
+        },
+        {
+            "id": 27,
+            "name": "陕西",
+            "cod": true,
+            "3Cod": false
+        },
+        {
+            "id": 28,
+            "name": "甘肃",
+            "cod": true,
+            "3Cod": false
+        },
+        {
+            "id": 29,
+            "name": "青海",
+            "cod": true,
+            "3Cod": false
+        },
+        {
+            "id": 30,
+            "name": "宁夏",
+            "cod": true,
+            "3Cod": false
+        },
+        {
+            "id": 31,
+            "name": "新疆",
+            "cod": true,
+            "3Cod": false
+        },
+        {
+            "id": 32,
+            "name": "台湾",
+            "cod": true,
+            "3Cod": false
+        },
+        {
+            "id": 84,
+            "name": "钓鱼岛",
+            "cod": true,
+            "3Cod": false
+        },
+        {
+            "id": 52993,
+            "name": "港澳",
+            "cod": false,
+            "3Cod": false
+        }
+    ]
+}]

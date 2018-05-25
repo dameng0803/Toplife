@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/shopCar.css">
+    <script src="libs/jquery-3.3.1.js"></script>
+    <script src="libs/jquery.cookie.js"></script>
+    <script src="libs/ajax.js"></script>
+</head>
+
+<body>
+    <div id="head">
+        <div class="head_center">
+            <div class="icon_left">
+                <p><img src="images/icon_mine.png" alt=""></p>
+                <div class="login">
+                    <a href="login.html" class="gologin">登录</a> /
+                    <a class="goregist">注册</a>
+                </div>
+            </div>
+            <script src="js/head.js"></script>
+            <div class="logo">
+                <a href="index.html"><img src="images/logo1.png" alt=""></a>
+
+            </div>
+            <div class="icon_right">
+                <p><img src="images/icon_search_30x28.png" alt=""></p>
+                <span class="car_pic"><img src="images/icon_cart_29x30.png" alt=""></span>
+                <span class="car_num">0</span>
+            </div>
+        </div>
+    </div>
+
+    <div id="shop_car">
+        <div class="car_title">
+            <h1>购物车</h1>
+        </div>
+        <div class="car_warp">
+            <div class="brand_title">
+                <a href="list.html">TOPLIFE</a>
+                <span class="brand_mask"></span>
+            </div>
+            <div class="sku_list">
+                <!-- <div class="itemlist">
+                    <label class="checkbox">
+                        <span class="checkbox_input">
+                            <input type="checkbox">
+                            <div class="icon_check">
+                                <svg>
+                                    <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon_check"></use>
+                                </svg>
+                            </div>
+                        </span>
+                    </label>
+
+                    <div class="item_header">
+                        <a href="list.html"><img src="pictures/khsmall1.jpg" alt=""></a>
+                        <div class="item_info">
+                            <p class="item_name">KILLER LE ROUGE 丝绒系列杀手口红 AC101</p>
+                        </div>
+                    </div>
+                    <div class="skuitem_attr">
+                        <ul class="skuitem_attr_list">
+                            <li title="AC101 ">类型：AC101 </li>
+                        </ul>
+                    </div>
+                    <div class="skuitem_price_wrap">
+                        <div class="skuitem_price">¥ 498.00</div>
+                    </div>
+                    <div class="counter">
+                        <span class="counter_minus">-</span>
+                        <input class="counter_count" type="text" value="1">
+                        <span class="counter_plus">+</span>
+                    </div>
+                    <div class="delete">
+                        <a href="##">删除</a>
+                    </div>
+                </div> 
+            <div class="accountbar">
+                <label class="checkbox">
+                        <span class="checkbox_input">
+                            <input type="checkbox">
+                            <div class="icon_check">
+                                <svg>
+                                    <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon_check"></use>
+                                </svg>
+                            </div>
+                        </span>
+                        <span class="checkbox_text">全选</span>
+                </label>
+                <p class="deleteAll">删除选中的商品</p>
+                <div class="accountbar_total">
+                    <p class="accountbar_select">已选<span>1</span>件商品</p>
+                    <p class="accountbar_price">
+                        <span>合计(不算运费):</span>
+                        <span class="totle_price">￥ <strong>498.00</strong> </span>
+                    </p>
+                    <button class="accountbar_submit">去结算</button>
+                </div>
+            </div>-->
+            </div>
+
+        </div>
+    </div>
+    <script src="js/shopCar.js"></script>
+    <script src="js/cardetail.js"></script>
+
+
+    <div id="aside">
+        <div class="tab_item">
+            <div class="tab_head">
+                <div class="tab_head_item">猜你喜欢</div>
+            </div>
+            <div class="tab_body">
+                <div class="tab_wrap">
+                    <img src="pictures/kh1.jpg" alt="">
+                    <div class="good_info">
+                        <p class="good_en">ATELIER SWAROVSKI</p>
+                        <p class="good_cn">KILLER LE ROUGE 丝绒系列杀手口红 AC102</p>
+                        <p class="price">￥ 498</p>
+                        <button class="tab_submit">加入购物车</button>
+                    </div>
+                </div>
+
+                <div class="tab_wrap">
+                    <img src="pictures/kh1.jpg" alt="">
+                    <div class="good_info">
+                        <p class="good_en">ATELIER SWAROVSKI</p>
+                        <p class="good_cn">KILLER LE ROUGE 丝绒系列杀手口红 AC102</p>
+                        <p class="price">￥ 498</p>
+                        <button class="tab_submit">加入购物车</button>
+                    </div>
+                </div>
+
+                <div class="tab_wrap">
+                    <img src="pictures/kh1.jpg" alt="">
+                    <div class="good_info">
+                        <p class="good_en">ATELIER SWAROVSKI</p>
+                        <p class="good_cn">KILLER LE ROUGE 丝绒系列杀手口红 AC102</p>
+                        <p class="price">￥ 498</p>
+                        <button class="tab_submit">加入购物车</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="footer_grid">
+        <ul class="grid_list">
+            <li>
+                <img src="images/icon_dujia.png" alt="">
+                <div class="icon">
+                    <p class="grid_cn">独家奢品</p>
+                    <p class="grid_en">EXCLUSIVE</p>
+                    <p class="grid_en">LUXURY GOODS</p>
+                </div>
+
+            </li>
+            <li>
+                <img src="images/icon_pinpai.png" alt="">
+                <div class="icon">
+                    <p class="grid_cn">品牌旗舰</p>
+                    <p class="grid_en">ONLINE</p>
+                    <p class="grid_en">FLAGSHIP STORE</p>
+                </div>
+
+            </li>
+            <li>
+                <img src="images/icon_quanqiu.png" alt="">
+                <div class="icon">
+                    <p class="grid_cn">全球同步</p>
+                    <p class="grid_en">GLOBAL</p>
+                    <p class="grid_en">LATEST COLLECTION</p>
+                </div>
+
+            </li>
+            <li>
+                <img src="images/icon_xinpin.png" alt="">
+                <div class="icon">
+                    <p class="grid_cn">新品首发</p>
+                    <p class="grid_en">NEW</p>
+                    <p class="grid_en">ARRIVAL</p>
+                </div>
+            </li>
+            <li>
+                <img src="images/icon_zunxiang.png" alt="">
+                <div class="icon">
+                    <p class="grid_cn">尊享服务</p>
+                    <p class="grid_en">VIP</p>
+                    <p class="grid_en">SERVICE</p>
+                </div>
+            </li>
+        </ul>
+    </div>
+
+    <div id="footer">
+        <div class="footer_wrap">
+            <div class="footer_center">
+                <div class="img_left">
+                    <img src="images/footer_main_left.png" alt="">
+                </div>
+                <div class="footer_warp1">
+                    <div class="wb">
+                        <img src="images/toplife_wb@1x.png" alt="">
+                    </div>
+                    <div class="wx">
+                        <img src="images/toplife_wx@1x.png" alt="">
+                    </div>
+                    <p class="footer_cn">欢迎关注TOPLIFE微信、微博公众平台，开启您的品质生活</p>
+                    <p class="footer_en">YOU ARE WARMLY INVITED TO FOLLOW OUR WEIBO &amp; WECHAT, EXPLORING A TOPLIFE</p>
+                </div>
+                <div class="img_right">
+                    <img src="images/footer_main_right.png" alt="">
+                </div>
+                <div class="explain">
+                    <div class="ex_left">
+                        <h3>使用帮助</h3>
+                        <ul>
+                            <li><a href="##">帮助中心</a></li>
+                        </ul>
+                    </div>
+                    <div class="ex_center">
+                        <h3>特色服务</h3>
+                        <ul>
+                            <li><a href="##">京尊达</a></li>
+                            <li><a href="##">多样化支付</a></li>
+                            <li><a href="##">24小时时尚顾问</a></li>
+                        </ul>
+                    </div>
+                    <div class="ex_right">
+                        <h3>关于我们</h3>
+                        <ul>
+                            <li><a href="##">TOPLIFE介绍</a></li>
+                            <li><a href="##">联系我们</a></li>
+                            <li><a href="##">隐私政策</a></li>
+                            <li><a href="##">用户注册协议</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="ft_bottom_center">
+            <div class="ft_logo">
+                <img src="images/logo.png" alt="">
+            </div>
+            <div class="copyRight">
+                <span class="r1">ICP备11041704号-26</span>
+                <span class="split">|</span>
+                <span class="r2">
+                                            Copyright © 
+                                            2018
+                                            TOPLIFE 版权所有
+                                        </span>
+                <span><a href="##">经营证照</a></span>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

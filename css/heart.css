@@ -1,0 +1,39 @@
+#heart {
+    width: 100%;
+    height: 710px;
+    position: relative;
+    background: #f6f6f6;
+    overflow: hidden;
+}
+
+#heart h2 {
+    display: block;
+    width: 100%;
+    height: 91px;
+    position: absolute;
+    text-align: center;
+    left: 0;
+    color: #232321;
+    z-index: 2;
+    top: 52px;
+    padding-bottom: 80px;
+    top: 0;
+}
+
+#heart:clear {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.heart_img {
+    padding-top: 210px;
+    width: 1190px;
+    height: 500px;
+    margin: 0 auto;
+}
+
+.heart_img a img {
+    width: 1190px;
+    height: 500px;
+}

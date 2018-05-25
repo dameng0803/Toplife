@@ -1,0 +1,195 @@
+* {
+    margin: 0;
+    padding: 0
+}
+
+.clear:after {
+    content: ".";
+    display: block;
+    clear: both;
+    height: 0;
+    visibility: hidden;
+}
+
+.clear {
+    zoom: 1;
+}
+
+em,
+i {
+    font-style: normal
+}
+
+li {
+    list-style: none
+}
+
+img {
+    border: 0;
+    vertical-align: middle
+}
+
+button {
+    cursor: pointer
+}
+
+a {
+    color: #232321;
+    text-decoration: none;
+    outline: none
+}
+
+a:active,
+a:focus {
+    outline: none
+}
+
+button,
+input {
+    font-family: Microsoft YaHei, tahoma, arial, Hiragino Sans GB, \\5b8b\4f53, sans-serif
+}
+
+body {
+    -webkit-font-smoothing: antialiased;
+    /* background-color: #f6f6f6; */
+    background: #fff;
+    font: 12px/1.5 Microsoft YaHei, tahoma, arial, Hiragino Sans GB, \\5b8b\4f53, sans-serif;
+    color: #232321;
+    margin-top: 18px;
+}
+
+html {
+    background: #f6f6f6;
+}
+
+#head {
+    width: 100%;
+    height: 100px;
+    background-color: #232321;
+}
+
+.head_center {
+    width: 1190px;
+    height: 80px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.head_center .icon_left {
+    width: 106px;
+    height: 38px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.head_center .icon_left p {
+    width: 30px;
+    height: 36px;
+}
+
+.head_center .icon_left p img {
+    width: 30px;
+    height: 36px;
+}
+
+.head_center .icon_left a {
+    color: #fff;
+}
+
+.head_center p {
+    width: 42px;
+    height: 38px;
+    float: left;
+}
+
+.head_center p>img {
+    width: 30px;
+    height: 36px;
+    float: left;
+}
+
+.head_center .login {
+    float: left;
+    padding-top: 9px;
+}
+
+.head_center .logo>img {
+    padding-top: 5px;
+}
+
+.head_center .logo {
+    width: 153px;
+    height: 94px;
+    position: absolute;
+    left: 595px;
+    top: 4px;
+}
+
+.head_center .icon_right {
+    width: 115px;
+    height: 38px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.head_center .icon_right p {
+    width: 38px;
+    height: 28px;
+}
+
+.head_center .icon_right .car_pic {
+    display: block;
+    width: 37px;
+    height: 29px;
+    float: right;
+}
+
+.head_center .icon_right .car_num {
+    display: block;
+    width: 20px;
+    height: 20px;
+    color: #000;
+    text-align: center;
+    line-height: 20px;
+    position: absolute;
+    right: 0;
+    top: -2px;
+    background: #fff;
+    border-radius: 50%;
+}
+
+.ft_bottom_center {
+    width: 1190px;
+    height: 92px;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+.ft_bottom_center .ft_logo {
+    width: 100px;
+    height: 61px;
+    position: absolute;
+    left: 50%;
+    margin-top: 15px;
+    margin-left: -50px;
+}
+
+.ft_bottom_center .ft_logo img {
+    width: 100px;
+    height: 61px;
+}
+
+.ft_bottom_center .copyRight {
+    width: 400px;
+    float: right;
+    margin-top: 38px;
+}
+
+.ft_bottom_center .copyRight span,
+a {
+    display: inline-block;
+    line-height: 20px;
+    color: #999;
+}

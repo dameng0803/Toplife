@@ -1,0 +1,233 @@
+* {
+    margin: 0;
+    padding: 0
+}
+
+.clear:after {
+    content: ".";
+    display: block;
+    clear: both;
+    height: 0;
+    visibility: hidden;
+}
+
+.clear {
+    zoom: 1;
+}
+
+em,
+i {
+    font-style: normal
+}
+
+li {
+    list-style: none
+}
+
+img {
+    border: 0;
+    vertical-align: middle
+}
+
+button {
+    cursor: pointer
+}
+
+a {
+    color: #232321;
+    text-decoration: none;
+    outline: none
+}
+
+a:active,
+a:focus {
+    outline: none
+}
+
+button,
+input {
+    font-family: Microsoft YaHei, tahoma, arial, Hiragino Sans GB, \\5b8b\4f53, sans-serif
+}
+
+body {
+    -webkit-font-smoothing: antialiased;
+    /* background-color: #f6f6f6; */
+    background: #fff;
+    font: 12px/1.5 Microsoft YaHei, tahoma, arial, Hiragino Sans GB, \\5b8b\4f53, sans-serif;
+    color: #232321;
+    margin-top: 18px;
+}
+
+html {
+    background: #f6f6f6;
+}
+
+#login_container {
+    width: 100%;
+    height: 680px;
+    position: relative;
+}
+
+.login_center {
+    width: 1190px;
+    height: 564px;
+    position: absolute;
+    top: 120px;
+    margin: auto;
+    left: 0;
+    right: 0;
+}
+
+.ft_bottom_center {
+    width: 1190px;
+    height: 92px;
+    margin: 0 auto;
+}
+
+.login_center h4 {
+    width: 1190px;
+    height: 147px;
+}
+
+.login_center h4 a {
+    width: 1190px;
+    text-align: center;
+    font-size: 28px;
+    letter-spacing: 8px;
+    font-family: Arial;
+    display: block;
+    color: #c4a66a;
+}
+
+.login_center .login_warp {
+    width: 868px;
+    height: 407px;
+    margin: 0 auto;
+}
+
+.login_center .login_warp .login_from {
+    width: 808px;
+    height: 357px;
+    padding: 30px;
+}
+
+.login_center .login_warp .login_from .login_denglu {
+    width: 300px;
+    height: 347px;
+    padding-right: 100px;
+    float: left;
+    border-right: 1px solid #999;
+}
+
+.login_center .login_warp .login_from .login_denglu .login_form_switch {
+    text-align: left;
+    padding-top: 0;
+    padding-bottom: 21px;
+    position: relative;
+    padding-left: 20px;
+}
+
+.login_center .login_warp .login_from .login_denglu .login_form_switch .login_title {
+    font-size: 24px;
+    line-height: 24px;
+    font-weight: 400;
+    margin-bottom: 5px;
+}
+
+.login_center .login_warp .login_from .login_denglu .login_form_switch .login_subtitle {
+    margin-top: 10px;
+    color: #999;
+}
+
+.login_center .login_warp .login_from .login_denglu .from_group {
+    width: 340px;
+    height: 260px;
+}
+
+.login_center .login_warp .login_from .login_denglu .from_group form {
+    width: 307px;
+    height: 260px;
+    margin: 0 auto;
+}
+
+.login_center .login_warp .login_from .login_denglu .from_group form input {
+    width: 305px;
+    height: 36px;
+    margin-bottom: 15px;
+}
+
+.login_center .login_warp .login_from .login_denglu .from_group form input:focus {
+    border: 1px solid greenyellow;
+}
+
+.login_center .login_warp .login_from .login_denglu .from_group form .login2 {
+    width: 305px;
+    height: 36px;
+    background: #232321;
+    color: #fff;
+    font-size: 18px;
+    text-align: center;
+    line-height: 36px;
+    border: none;
+    display: block;
+}
+
+.login_center .login_warp .login_from .login_regist {
+    width: 310px;
+    height: 230px;
+    margin-left: 82px;
+    float: left;
+}
+
+.login_center .login_warp .login_from .login_regist h3 {
+    padding-bottom: 11px;
+    font-size: 24px;
+    line-height: 24px;
+    font-weight: 400;
+}
+
+.login_center .login_warp .login_from .login_regist p {
+    line-height: 18px;
+    color: #777;
+    text-align: left;
+}
+
+.login_center .login_warp .login_from .login_regist a {
+    display: block;
+    width: 310px;
+    height: 44px;
+    border: 1px solid #000;
+    text-align: center;
+    font-size: 16px;
+    line-height: 44px;
+    margin-top: 30px;
+    color: #232321;
+}
+
+.ft_bottom_center .ft_logo {
+    width: 100px;
+    height: 61px;
+    position: absolute;
+    left: 50%;
+    margin-top: 15px;
+    margin-left: -50px;
+}
+
+.ft_bottom_center .ft_logo img {
+    width: 100px;
+    height: 61px;
+    background: palegreen;
+}
+
+.ft_bottom_center .copyRight {
+    width: 400px;
+    float: right;
+    margin-top: 38px;
+}
+
+.ft_bottom_center .copyRight span,
+a {
+    display: inline-block;
+    line-height: 20px;
+    color: #999;
+}

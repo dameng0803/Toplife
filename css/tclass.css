@@ -1,0 +1,155 @@
+#tclass {
+    width: 100%;
+    height: 2119px;
+    position: relative;
+    background: #fff;
+}
+
+.tclass_list {
+    width: 1190px;
+    height: 1906px;
+    margin: 188px auto;
+    left: 0;
+    right: 0;
+    position: absolute;
+}
+
+.tclass_list .tclass_item {
+    background: #f5f5f5;
+    position: absolute;
+}
+
+.tclass_list .item0 {
+    width: 934px;
+    height: 360px;
+    left: 0;
+    top: 0;
+}
+
+.tclass_list .item1 {
+    width: 934px;
+    height: 260px;
+    position: absolute;
+    left: 0;
+    top: 604px;
+}
+
+.tclass_list .item1 .text_content img {
+    position: absolute;
+    bottom: 100px;
+    right: -234px;
+}
+
+.tclass_list .tclass_item .text_content .item_wrap {
+    width: 536px;
+    position: absolute;
+    padding: 50px 32px;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    height: 160px;
+}
+
+.tclass_list .tclass_item .text_content .item_wrap span {
+    position: absolute;
+    width: 160px;
+    left: 408px;
+    top: 23px;
+}
+
+.tclass_list .tclass_item .text_content .item_wrap .sub {
+    top: 210px;
+    left: 429px;
+    width: 91px;
+}
+
+.tclass_list .tclass_item .item_wrap {
+    position: absolute;
+    padding: 50px 422px;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    top: 0;
+    height: 100%;
+}
+
+.tclass_list .tclass_item .item_wrap .sup {
+    letter-spacing: .06em;
+    position: absolute;
+    top: 23px;
+    left: 800px;
+    font-size: 16px;
+    font-family: HYQiHei;
+    font-weight: 700;
+    color: #c0a369;
+}
+
+.tclass_list .tclass_item .item_wrap .content a {
+    letter-spacing: .05em;
+    font-size: 28px;
+    line-height: 1.31em;
+    font-weight: 600;
+    color: #000;
+}
+
+.tclass_list .tclass_item .item_wrap .content a:hover {
+    border-bottom: 1px solid #000;
+}
+
+.tclass_list .tclass_item .item_wrap .detail {
+    letter-spacing: .05em;
+    color: #999;
+    font-size: 12px;
+    line-height: 20px;
+    width: 390px;
+    margin-top: 22px;
+}
+
+.tclass_list .tclass_item .item_wrap .sub {
+    position: absolute;
+    left: 800px;
+    bottom: 30px;
+    font-size: 14px;
+    color: #000;
+}
+
+.tclass_list .item2 {
+    width: 934px;
+    height: 360px;
+    position: absolute;
+    top: 909px;
+    right: 0;
+}
+
+.tclass_list .item3 {
+    width: 934px;
+    height: 260px;
+    position: absolute;
+    top: 1573px;
+    right: 0;
+}
+
+.tclass_list .item2 .text_content img {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.tclass_list .item2 .text_content .item_wrap {
+    position: absolute;
+    padding: 50px 32px;
+}
+
+.tclass_list .item3 .text_content img {
+    position: absolute;
+    bottom: 84px;
+    left: -205px;
+}
+
+.tclass_list .item3 .item_wrap {
+    position: absolute;
+    right: 23px;
+}
+
+.tclass_list .item0 .item_wrap {
+    position: absolute;
+    right: 23px;
+}

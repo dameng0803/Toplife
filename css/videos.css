@@ -1,0 +1,39 @@
+#videos {
+    width: 100%;
+    height: 992px;
+    position: relative;
+    background: #f6f6f6;
+}
+
+.videos_wrap {
+    position: absolute;
+    width: 100%;
+    height: 614px;
+    margin-top: 298px;
+    background: papayawhip;
+}
+
+.videos_center {
+    position: absolute;
+    padding-top: 20px;
+    width: 100%;
+    height: 60px;
+    text-align: center;
+    background-color: #fff;
+    bottom: 0;
+}
+
+.videos_center a {
+    display: inline-block;
+    width: 120px;
+    height: 38px;
+    line-height: 38px;
+    text-align: center;
+    border: 1px solid #232321;
+    transition: all .5s ease-in-out;
+}
+
+.videos_center a:hover {
+    background: #000;
+    color: #fff;
+}

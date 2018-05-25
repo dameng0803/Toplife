@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>登录</title>
+    <link rel="stylesheet" href="css/regist.css">
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <style>
+        .form-group input+span {
+            display: none;
+            color: #ddd;
+            line-height: 20px;
+            font-size: 12px;
+        }
+        
+        .form-group input {
+            width: 400px;
+            height: 54px;
+        }
+        
+        .form-group input.error {
+            border-color: red;
+        }
+        
+        .form-group input.error:focus {
+            box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(255, 0, 0, .6);
+        }
+        
+        .form-group input.success {
+            border-color: green;
+        }
+        
+        .form-group input.success:focus {
+            box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(0, 255, 0, .6);
+        }
+        
+        #register {
+            background: #000;
+            margin-top: 0px;
+            text-indent: 0px;
+            width: 400px;
+            height: 54px;
+            color: #fff;
+            line-height: 45px;
+            font-size: 16px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="head">
+        <div class="head_center">
+            <div class="icon_left">
+                <p><img src="images/icon_mine.png" alt=""></p>
+                <div class="login">
+                    <a href="login.html">登录</a> /
+                    <a href="#">注册</a>
+                </div>
+            </div>
+            <div class="logo">
+                <a href="index.html"><img src="images/logo1.png" alt=""></a>
+
+            </div>
+            <div class="icon_right">
+                <p><img src="images/icon_search_30x28.png" alt=""></p>
+                <span class="car_pic"><img src="images/icon_cart_29x30.png" alt=""></span>
+                <span class="car_num"></span>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+
+        <div class="row" style="margin-top:60px;">
+            <div class="col-md-6 col-md-offset-3 col-sm-10">
+                <form>
+                    <div class="form-group">
+                        <label for="userId">注册邮箱</label>
+                        <input type="text" class="form-control" id="username" placeholder="请输入邮箱">
+                        <span>请输入有效邮箱</span>
+                    </div>
+                    <div class="form-group">
+                        <label for="psw">设置密码</label>
+                        <input type="password" class="form-control" id="psw" placeholder="建议使用两种或两种以上字符组合">
+                        <span>建议使用数字字母组合或两种以上组合的密码,6-20个字符</span>
+                    </div>
+                    <div class="form-group">
+                        <label for="confirmpw">确认密码</label>
+                        <input type="password" class="form-control" id="confirmpw" placeholder="请再次输入密码">
+                        <span>请再次输入密码</span>
+                    </div>
+                    <a href="login.html" class="btn btn-default" id="register">注册</a>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="libs/jquery-3.3.1.js"></script>
+    <script src="libs/jquery.cookie.js"></script>
+    <script src="js/re.js"></script>
+
+
+    <div class="ft_bottom_center">
+        <div class="ft_logo">
+            <img src="images/logo.png" alt="">
+        </div>
+        <div class="copyRight">
+            <span class="r1">ICP备11041704号-26</span>
+            <span class="split">|</span>
+            <span class="r2">
+                                    Copyright © 
+                                    2018
+                                    TOPLIFE 版权所有
+                                </span>
+            <span><a href="##">经营证照</a></span>
+        </div>
+    </div>
+</body>
+
+</html>s

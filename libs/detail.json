@@ -1,0 +1,144 @@
+[{
+    "code": 0,
+    "data": {
+        "act": null,
+        "buyable": true,
+        "designConcept": null,
+        "empty": false,
+        "imgRule": {
+            "domain": "m.360buyimg.com",
+            "sizeKV": {
+                "1080x1080": "/n1/s1080x1080_",
+                "1080x1382": "/n1/s1080x1382_",
+                "300x300": "/n1/s300x300_",
+                "270x120": "/n1/s270x120_"
+            }
+        },
+        "productBasicVO": {
+            "afterSale": null,
+            "brandId": 332232,
+            "brandInfo": {
+                "brandLogo": null,
+                "brandName": "ALANCHAN CREATIONS",
+                "eBrandName": "ALANCHAN CREATIONS",
+                "mainBrand": "332232"
+            },
+            "canChooseSize": false,
+            "cat1": 14343,
+            "cat2": 14345,
+            "cat3": 14357,
+            "descId": "11537953312",
+            "expands": {},
+            "image": [
+                "jfs/t19114/286/1926396385/133714/3f44618d/5adf0ad2Nf0c039c5.jpg",
+                "jfs/t19621/162/1901970943/118685/553f916b/5adf0adaN011508dc.jpg",
+                "jfs/t17362/284/1956685635/75530/3ddd8884/5adf0b5aNd6b74c08.jpg",
+                "jfs/t18565/187/1961039295/140142/9266d6ca/5adf0b5fNaeed5ace.jpg",
+                "jfs/t17431/280/1964920231/193997/6f80d2e9/5adf0b63N7131a152.jpg"
+            ],
+            "isLongImg": true,
+            "itemNum": "KILLSAC101",
+            "mainVideoImgUrl": null,
+            "mainVideoPath": null,
+            "newColorSize": [{
+                "1": "AC101",
+                "2": "",
+                "3": "",
+                "sequenceNo3": 0,
+                "sequenceNo2": 0,
+                "specName": "",
+                "yn": 1,
+                "imagePath": "jfs/t17017/344/1951556784/143262/728d49b3/5adf093bN7aa02119.jpg",
+                "dist": 1,
+                "index": 1,
+                "sequenceNo1": 1,
+                "skuId": 27048614516
+            }],
+            "pName": "KILLER LE ROUGE 丝绒系列杀手口红 AC101",
+            "pop": true,
+            "productArea": null,
+            "saleProp": {
+                "1": "类型",
+                "2": "净含量",
+                "3": ""
+            },
+            "salePropSeq": {
+                "1": [
+                    "AC101"
+                ],
+                "2": [
+                    ""
+                ],
+                "3": [
+                    ""
+                ]
+            },
+            "shopId": 772919,
+            "shopInfo": {
+                "logo": "jfs/t18586/204/1947716854/4628/eb6d1edb/5ae067bbNf1c3f974.png",
+                "name": "Alan Chan Creations",
+                "pCount": 8,
+                "url": "http://mall.jd.com/index-772919.html"
+            },
+            "skuId": 27048614516,
+            "skuName": "KILLER LE ROUGE 丝绒系列杀手口红 AC101",
+            "spAttr": {
+                "YuShou": "0",
+                "YuShouNoWay": "0",
+                "nationallySetWare": "3",
+                "isOverseaPurchase": "0",
+                "isLOC": "0",
+                "HYKHSP": "0",
+                "is7ToReturn": "1",
+                "isXnzt": "0",
+                "isCartshield": "0",
+                "isSupermarket": "0",
+                "LuxuryGoods": "0",
+                "isEbay": "0",
+                "isKO": "0"
+            },
+            "venderId": 775191,
+            "warestatus": "1"
+        },
+        "productDescVO": {
+            "content": "<img src=\"//img30.360buyimg.com/jgsq-productsoa/jfs/t19609/148/1471158980/148659/c8aa4e44/5acc3ee5N048696b8.jpg\" alt=\"\" />",
+            "date": -1,
+            "fragment": null,
+            "imgPaths": null,
+            "jsContent": null,
+            "useZhuangBa": false
+        },
+        "productDynamicInfoVO": {
+            "agioCoupon": {
+                "actId": null,
+                "actUrl": null,
+                "endTime": null,
+                "orderDoneTime": null,
+                "startTime": null,
+                "title": null
+            },
+            "price": "498.00",
+            "price2": {
+                "id": "27048614516",
+                "op": "498.00",
+                "p": "498.00",
+                "tpp": null
+            },
+            "promTags": null,
+            "spuStock": true,
+            "stockAppVO": {
+                "code": 1,
+                "dcashDesc": "",
+                "payOnDelivery": true,
+                "realSkuId": 27048614516,
+                "serviceInfo": "由 TOPLIFE 发货, Alan Chan Creations提供售后服务。",
+                "stockDesc": "<strong>有货</strong>",
+                "stockState": 33
+            },
+            "usableCoupons": null
+        },
+        "tagList": null
+    },
+    "message": null,
+    "success": true
+}]
